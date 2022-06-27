@@ -8,13 +8,6 @@
  $department=$_POST['department'];
 
 
- echo $student_id"<br>";
- echo $firstname"<br>";
- echo $lastname"<br>";
- echo $dob"<br>";
- echo $email"<br>";
- echo $department"<br>";
-
  /*
 if($email == "hackmail.com"){
 
@@ -25,6 +18,27 @@ if($email == "hackmail.com"){
 }
 
 */
+//Connecting database
 
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "php_task";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password,$dbname);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+$sql = "INSERT INTO students VALUES ('','$student_id','$firstname','$lastname','$dob','$email','$department')";
+
+if ($conn->query($sql) === TRUE) {
+    echo "New record created successfully";
+  } else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+  }
 
 ?>
