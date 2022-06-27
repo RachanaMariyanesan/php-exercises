@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="container bg-dark">
-<form class=" text-white">
+<form action="insert-students-data.php" method="post" class=" text-white">
   <h1 class="text-center">Student Registration</h1>
   <hr>
   <div class="form-group" style="margin-bottom:20px">
