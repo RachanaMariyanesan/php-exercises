@@ -14,37 +14,37 @@
   <hr>
   <div class="form-group" style="margin-bottom:20px">
     <label for="exampleInputEmail1">Student ID</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Student ID">
+    <input type="text" class="form-control" name="sid" aria-describedby="emailHelp" placeholder="Enter Student ID">
  
   </div>
   <div class="form-group" style="margin-bottom:20px">
     <label for="exampleInputEmail1">First name</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter First name">
+    <input type="text" class="form-control" name="fname" aria-describedby="emailHelp" placeholder="Enter First name">
  
   </div>
   <div class="form-group" style="margin-bottom:20px">
     <label for="exampleInputEmail1">Last name</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Last name">
+    <input type="text" class="form-control" name="lname" aria-describedby="emailHelp" placeholder="Enter Last name">
  
   </div>
   <div class="form-group" style="margin-bottom:20px">
     <label for="exampleInputEmail1">Date of Birth</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Date of Birth">
+    <input type="text" class="form-control" name="dob" aria-describedby="emailHelp" placeholder="Enter Date of Birth">
  
   </div>
   <div class="form-group" style="margin-bottom:20px">
     <label for="exampleInputEmail1">Email</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email">
+    <input type="text" class="form-control" name="email" aria-describedby="emailHelp" placeholder="Enter Email">
  
   </div>
   <div class="form-group" style="margin-bottom:20px">
     <label for="exampleInputEmail1">Department</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Department">
+    <input type="text" class="form-control" name="department" aria-describedby="emailHelp" placeholder="Enter Department">
  
   </div>
  
  
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-success">Submit</button>
 </form><br>
 </div>
 <script src="https://kit.fontawesome.com/ab02c285ab.js" crossorigin="anonymous"></script>
