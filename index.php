@@ -14,17 +14,17 @@
   <hr>
   <div class="form-group" style="margin-bottom:20px">
     <label for="exampleInputEmail1">Student ID</label>
-    <input type="text" class="form-control" name="sid" aria-describedby="emailHelp" placeholder="Enter Student ID">
+    <input type="text" class="form-control" name="student_id" aria-describedby="emailHelp" placeholder="Enter Student ID">
  
   </div>
   <div class="form-group" style="margin-bottom:20px">
     <label for="exampleInputEmail1">First name</label>
-    <input type="text" class="form-control" name="fname" aria-describedby="emailHelp" placeholder="Enter First name">
+    <input type="text" class="form-control" name="firstname" aria-describedby="emailHelp" placeholder="Enter First name">
  
   </div>
   <div class="form-group" style="margin-bottom:20px">
     <label for="exampleInputEmail1">Last name</label>
-    <input type="text" class="form-control" name="lname" aria-describedby="emailHelp" placeholder="Enter Last name">
+    <input type="text" class="form-control" name="lastname" aria-describedby="emailHelp" placeholder="Enter Last name">
  
   </div>
   <div class="form-group" style="margin-bottom:20px">
