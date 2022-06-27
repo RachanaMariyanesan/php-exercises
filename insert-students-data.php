@@ -23,7 +23,7 @@ if($email == "hackmail.com"){
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "php_task";
+$dbname = "phpexercises";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password,$dbname);
